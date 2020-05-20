@@ -21,7 +21,7 @@ $header[] = 'Authorization: Basic '.base64_encode($plainCredentials);
 $curl = curl_init($url);
 curl_setopt($curl, CURLOPT_POST, TRUE);
 curl_setopt($curl, CURLOPT_HTTPHEADER, $header);
-curl_setopt($curl, CURLOPT_POSTFIELDS, $json_enc); // パラメータをセット
+curl_setopt($curl, CURLOPT_POSTFIELDS, $json_enc); 
 curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
 curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
