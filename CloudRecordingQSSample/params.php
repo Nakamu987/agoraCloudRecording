@@ -8,6 +8,7 @@ $uid = "100000";
 $mode = 'mix';
 $resourceid = '**********';
 $sid = '**********';
+$token = '**********';
 
 ##CloudStorage###
 $accessKey = '**********';

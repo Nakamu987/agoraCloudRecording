@@ -29,7 +29,7 @@ $storageConfig= [
 ];
 
 $clientRequest = [
-  'token' => "",
+  'token' => $token,
   'recordingConfig' => $recordingConfig,
   'storageConfig' => $storageConfig
 ];
