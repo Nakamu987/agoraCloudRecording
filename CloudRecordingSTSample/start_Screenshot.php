@@ -26,7 +26,7 @@ $storageConfig= [
 ];
 
 $clientRequest = [
-  'token' => "",
+  'token' => $token,
   'recordingConfig' => $recordingConfig,
   'snapshotConfig' => $snapshotConfig,
   'storageConfig' => $storageConfig

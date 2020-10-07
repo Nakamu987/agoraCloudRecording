@@ -9,6 +9,7 @@ $mode = 'mix';
 //$mode = 'individual';
 $resourceid = '**********';
 $sid = '**********';
+$token = '**********';
 
 ##CloudStorage###
 $accessKey = '**********';
